@@ -1,5 +1,5 @@
+import { withTamagui as tamagui } from "@tamagui/next-plugin";
 import type { NextConfig } from "next";
-import { withTamagui as tamagui } from '@tamagui/next-plugin';
 
 const withTamagui = tamagui({
   config: "../../packages/ui/tamagui.config",

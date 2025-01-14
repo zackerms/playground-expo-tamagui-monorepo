@@ -7,6 +7,10 @@
   "scripts": {
     "web": "yarn workspace @my-app/next dev",
     "android": "yarn workspace @my-app/expo android",
-    "ios": "yarn workspace @my-app/expo ios"
+    "ios": "yarn workspace @my-app/expo ios",
+    "format": "biome check --write --unsafe ./apps ./packages && biome format --write ./apps ./packages"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
   }
 }

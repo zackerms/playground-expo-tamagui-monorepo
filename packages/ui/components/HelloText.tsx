@@ -1,4 +1,4 @@
-import {Text} from "tamagui";
+import { Text } from "tamagui";
 
 export function HelloText() {
   return <Text>Hello World</Text>;
