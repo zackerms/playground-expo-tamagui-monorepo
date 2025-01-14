@@ -4,6 +4,7 @@
     "./apps/**"
   ],
   "scripts": {
+    "web": "yarn workspace @my-app/next dev",
     "android": "yarn workspace @my-app/expo android",
     "ios": "yarn workspace @my-app/expo ios"
   }
